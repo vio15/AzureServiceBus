@@ -10,7 +10,7 @@ namespace SBReceiver
 {
     class Program
     {
-        const string connectionString ="AzureServiceBusConnectionString":
+        const string connectionString = "AzureServiceBusConnectionString";
         const string queueName = "personqueue";
         static IQueueClient queueClient;
 
